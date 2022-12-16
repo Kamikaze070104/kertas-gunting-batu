@@ -37,7 +37,7 @@ function game(UserChoice){
 }
 function win(bn){
     UserPoints++;
-    document.getElementById("who").innerHTML = "KAMU MENANG HORE!!!!";
+    document.getElementById("who").innerHTML = "KAMU MENANG! :v";
     var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("blue");
@@ -47,7 +47,7 @@ function win(bn){
     }, 1200);
 }
 function draw(bn){
-    document.getElementById("who").innerHTML = "INi SERI!!!!";
+    document.getElementById("who").innerHTML = "KAMU SERI :3";
     var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("gray");
@@ -58,7 +58,7 @@ function draw(bn){
 }
 function lose(bn){
     ComPoints++;
-    document.getElementById("who").innerHTML = "KAMU KALAH +_+";
+    document.getElementById("who").innerHTML = "KAMU KALAH XwX";
     var bn = document.getElementById(bn);
     bn.classList.remove("bn");
     bn.classList.add("red");
